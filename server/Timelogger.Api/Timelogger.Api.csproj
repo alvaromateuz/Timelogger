@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Timelogger.Application\Timelogger.Application.csproj" />
+    <ProjectReference Include="..\Timelogger.Infrastructure\Timelogger.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
